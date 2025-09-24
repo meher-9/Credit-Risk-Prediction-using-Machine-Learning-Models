@@ -1,0 +1,10 @@
+Each model produces the following metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC AUC Score
+
+The output includes:
+- Classification report per model
+- Confusion matrix heatmaps

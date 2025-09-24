@@ -1,0 +1,14 @@
+->Steps Followed for Credit Risk Prediction:
+1. Loaded and cleaned the dataset.
+2. Performed feature engineering to derive behavior-based indicators:
+   - Total_Delays, Avg_Payment_Ratio, Payment_Consistency, Credit_Utilization.
+3. Handled missing values and encoded categorical data.
+4. Scaled numeric features and split the data (stratified).
+5. Trained Logistic Regression, Random Forest, and SVM models.
+6. Evaluated models using Accuracy, Precision, Recall, F1 Score, ROC AUC.
+7. Visualized performance using confusion matrices.
+
+->Challenges faced and contributions:
+1.Imbalanced dataset → Solved with stratified sampling.
+2.Zero division errors → Solved using .replace(0, 1) in ratios.
+3.Categorical encoding → Solved using OneHotEncoder.

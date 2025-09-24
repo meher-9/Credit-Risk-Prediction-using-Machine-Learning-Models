@@ -1,0 +1,15 @@
+Modifications:
+
+-Client_ID removed
+
+-Missing values filled with 0
+
+Added derived features:
+
+-Total_Delays
+
+-Avg_Payment_Ratio
+
+-Payment_Consistency
+
+-Credit_Utilization
